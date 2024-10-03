@@ -1,0 +1,8 @@
+{
+  "name": "lanyard-ts",
+  "module": "lanyard.mts",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
