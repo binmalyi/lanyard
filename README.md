@@ -6,12 +6,12 @@ A purely native TypeScript library for [Discord Lanyard API](https://github.com/
 
 Importing TS File (works only if <span style="color:#7DF9FF;">_"allowImportingTsExtensions"_</span> is enabled in tsconfig)
 ```ts
-import { Lanyard } from "lanyard.mts";
+import { Lanyard } from "index.mts";
 ```
 
 Importing JS File
 ```js
-import { Lanyard } from "lanyard.mjs";
+import { Lanyard } from "index.mjs";
 ```
 
 By default, it reads user id from ___process.env["<span style="color:#b2ec5d">LANYARDID</span>"]___.
